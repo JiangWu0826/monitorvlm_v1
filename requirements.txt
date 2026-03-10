@@ -1,0 +1,53 @@
+# 基础依赖
+numpy
+Pillow
+ultralytics
+requests
+
+# LLM相关依赖
+PyTorch
+torchvision
+torchaudio
+transformers
+modelscope
+ms_swift
+peft
+vllm
+qwen-vl-utils
+trl
+sentence-transformers
+openai
+
+# 其他依赖
+pathlib
+concurrent.futures
+opencv-python
+timm
+safetensors
+tqdm
+rich
+pydantic
+pyyaml
+
+# 数据处理
+pandas
+pyarrow
+scikit-learn
+scikit-image
+
+# 模型训练与评估
+tensorboard
+sacrebleu
+rouge-chinese
+
+# 工具库
+click
+typer
+uvicorn
+starlette
+streamlit
+
+# 其他必要包
+transformers-stream-generator
+ultralytics-thop
+xformers
