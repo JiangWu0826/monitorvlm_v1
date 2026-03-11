@@ -12,7 +12,7 @@ This project roughly covers the entire process from data balance mining, adversa
 ```
 monitorvlm_v1/
 ├── bm/                      # Base model related code
-│   └── ft_swift_infer_api_加入加测模型.py  # Safety analysis script integrated with GroundingDino detection
+│   └── ft_swift_infer_api_pos.py  # Safety analysis script integrated with GroundingDino detection
 ├── dataset_enrichment_code/ # Dataset enrichment code
 │   ├── 1video_frame_extractor.py     # Video frame extraction
 │   ├── 2image_augmentation.py       # Image augmentation
@@ -40,7 +40,8 @@ monitorvlm_v1/
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
 ```
-
+## Video
+https://drive.google.com/file/d/1Qj23DLqOToCt8VlPdW0eGLSVEGbx20kR/view
 ## Features
 
 ### 1. Dataset Processing and Enrichment
@@ -134,3 +135,11 @@ Safety analysis example output:
 - Violated Rules: List confirmed and suspected violated rules
 - Overall Conclusion: Safety compliant or violation exists
 - Improvement Suggestions: Specific suggestions based on analysis
+
+## Citation
+@article{wu2025monitorvlm,
+  title={MonitorVLM: A Vision Language Framework for Safety Violation Detection in Mining Operations},
+  author={Wu, Jiang and Wu, Sichao and Ma, Yinsong and Yu, Guangyuan and Xu, Haoyuan and Zheng, Lifang and Duan, Jingliang},
+  journal={arXiv preprint arXiv:2510.03666},
+  year={2025}
+}
