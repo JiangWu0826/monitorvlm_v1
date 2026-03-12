@@ -94,7 +94,7 @@ python dataset_enrichment_code/3auto_merge_datasets.py
 
 **Safety Analysis with GroundingDino Detection**:
 ```bash
-python bm/ft_swift_infer_api_加入加测模型.py
+python bm/ft_swift_infer_api_pos.py
 ```
 
 #### 3. Model Training
